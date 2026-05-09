@@ -1,12 +1,12 @@
 # E-Mail-Isolation für Benutzer (Subdomain + Zoho)
 
-Diese Anleitung beschreibt, wie du für einen Benutzer (z. B. `gabi`) ein eigenständiges Postfach einrichtest, das nach außen als `user@example.com` erscheint, aber intern isoliert auf einer Subdomain (`user.user.example.com`) bei Zoho läuft.
+Diese Anleitung beschreibt, wie du für einen Benutzer (z. B. `user`) ein eigenständiges Postfach einrichtest, das nach außen als `user@example.com` erscheint, aber intern isoliert auf einer Subdomain (`user.user.example.com`) bei Zoho läuft.
 
 ## 1. Subdomain-Postfach bei Zoho anlegen
 
 - In der **Zoho Admin Console** → **Users** → **Create**.
 - **E-Mail-Adresse:** `user@user.example.com`  
-  (Beispiel: `gabi@gabi.example.com`)
+  (Beispiel: `user@user.example.com`)
 - **Passwort** vergeben (notieren für Schritt 3).
 - Benutzer erstellen.
 
